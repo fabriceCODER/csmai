@@ -1,3 +1,4 @@
+"use client"
 import ComponentsLayout from "@/app/(layouts)/page";
 export default function Home() {
   return (

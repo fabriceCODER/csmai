@@ -8,7 +8,8 @@ export default function Footer() {
                 <div>
                     <h2 className="text-white text-2xl font-bold">CsmAI</h2>
                     <p className="mt-4">
-                        With lots of unique blocks, you can easily build and maximize the productivity of your business with our innovative solutions.
+                        With lots of unique blocks, you can easily build and maximize
+                        the productivity of your business with our innovative solutions.
                     </p>
                     <div className="flex space-x-4 mt-6">
                         <FaTwitter className="text-white hover:text-gray-500 cursor-pointer" />

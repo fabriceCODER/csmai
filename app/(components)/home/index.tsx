@@ -1,5 +1,6 @@
 "use client"
 import Head from 'next/head';
+import {SignedOut, SignInButton} from "@clerk/nextjs";
 
 export default function Homepage() {
     return (
@@ -18,8 +19,16 @@ export default function Homepage() {
                 </p>
                 <div className="mt-8 space-x-4">
                     <button className="px-6 py-3 bg-blue-600 text-white rounded-full">Book a Demo</button>
-                    <button className="px-6 py-3 border border-blue-600 text-blue-600 rounded-full hover:bg-blue-600 hover:text-white">Get started for free</button>
-                </div>
+                    <SignedOut>
+                    <SignInButton mode="modal">
+                    <button className="px-4 py-2 border border-blue-600 text-white rounded-full hover:bg-blue-600">
+                        Get Started for free
+                    </button>
+                  </SignInButton>
+                    </SignedOut>
+
+
+                    </div>
             </main>
         </div>
     );

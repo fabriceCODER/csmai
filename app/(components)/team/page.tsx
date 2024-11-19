@@ -35,16 +35,16 @@ const TeamSection = () => {
                 <div className="flex justify-center items-center space-x-4">
                     {/* Replace these with your team members' images */}
                     <div className="w-20 h-20 rounded-full overflow-hidden border-2 border-gray-700">
-                        <Image src="/path-to-image1.jpg" alt="Team Member 1" width={80} height={80} />
+                        <Image src="/images/team/ceo.jpeg" alt="Team Member 1" width={80} height={80} />
                     </div>
                     <div className="w-20 h-20 rounded-full overflow-hidden border-2 border-gray-700">
-                        <Image src="/path-to-image2.jpg" alt="Team Member 2" width={80} height={80} />
+                        <Image src="/images/team/ceo.jpeg" alt="Team Member 2" width={80} height={80} />
                     </div>
                     <div className="w-20 h-20 rounded-full overflow-hidden border-2 border-gray-700">
-                        <Image src="/path-to-image3.jpg" alt="Team Member 3" width={80} height={80} />
+                        <Image src="/images/team/ceo.jpeg" alt="Team Member 3" width={80} height={80} />
                     </div>
                     <div className="w-20 h-20 rounded-full overflow-hidden border-2 border-gray-700">
-                        <Image src="/path-to-image4.jpg" alt="Team Member 4" width={80} height={80} />
+                        <Image src="/images/team/ceo.jpeg" alt="Team Member 4" width={80} height={80} />
                     </div>
                 </div>
             </div>

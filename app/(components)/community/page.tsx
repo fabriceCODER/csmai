@@ -6,7 +6,7 @@ const CommunitySection = () => {
                 <div className="flex justify-center mb-6">
                     {/* Add a Discord logo or any icon here */}
                     <img
-                        src="/images/discord.png"
+                        src="/images/team/discord.png"
                         alt="Discord Logo"
                         className="w-16 h-16"
                     />

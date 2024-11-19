@@ -5,7 +5,7 @@ const testimonials = [
     {
         name: 'Cameron Williamson',
         title: 'Web Designer',
-        image: '/path-to-image1.jpg', // Replace with actual path
+        image: '/images/discord.png', // Replace with actual path
         text: 'Rorem ipsum dolor sit amet consectetur. Ac quam sem mi nibh volutpat enim pellentesque. Proin iaculis nisi et neque sed fermentum sollicitudin lectus.',
     },
     {
