@@ -27,7 +27,6 @@ export default function Homepage() {
                   </SignInButton>
                     </SignedOut>
 
-
                     </div>
             </main>
         </div>
